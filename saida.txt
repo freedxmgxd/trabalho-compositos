@@ -1,0 +1,481 @@
+n = 3
+t = 5.0000e-04
+E1 = 1.8100e+11
+E2 = 1.0300e+10
+v12 = 0.2800
+v13 = 0.2800
+v23 = 0.2800
+G12 = 7.1700e+09
+G13 = 7.1700e+09
+G23 = 7.1700e+09
+alpha1 = 0
+alpha2 = 0
+Xet = 1.0350e+09
+Xec = 1.0350e+09
+Yet = 2.7600e+07
+Yec = 1.3800e+08
+Se = 4.1400e+07
+Q0 =
+
+   1.8181e+11   2.8969e+09            0
+   2.8969e+09   1.0346e+10            0
+            0            0   7.1700e+09
+
+Q =
+
+ans(:,:,1) =
+
+   1.8181e+11   2.8969e+09            0
+   2.8969e+09   1.0346e+10            0
+            0            0   7.1700e+09
+
+ans(:,:,2) =
+
+   0   0   0
+   0   0   0
+   0   0   0
+
+ans(:,:,3) =
+
+   0   0   0
+   0   0   0
+   0   0   0
+
+Q =
+
+ans(:,:,1) =
+
+   1.8181e+11   2.8969e+09            0
+   2.8969e+09   1.0346e+10            0
+            0            0   7.1700e+09
+
+ans(:,:,2) =
+
+   1.0938e+11   3.2463e+10   5.4193e+10
+   3.2463e+10   2.3647e+10   2.0054e+10
+   5.4193e+10   2.0054e+10   3.6736e+10
+
+ans(:,:,3) =
+
+   0   0   0
+   0   0   0
+   0   0   0
+
+Q =
+
+ans(:,:,1) =
+
+   1.8181e+11   2.8969e+09            0
+   2.8969e+09   1.0346e+10            0
+            0            0   7.1700e+09
+
+ans(:,:,2) =
+
+   1.0938e+11   3.2463e+10   5.4193e+10
+   3.2463e+10   2.3647e+10   2.0054e+10
+   5.4193e+10   2.0054e+10   3.6736e+10
+
+ans(:,:,3) =
+
+   5.6658e+10   4.2318e+10  -4.2866e+10
+   4.2318e+10   5.6658e+10  -4.2866e+10
+  -4.2866e+10  -4.2866e+10   4.6591e+10
+
+Nmec =
+
+   150000
+        0
+        0
+
+Mmec =
+
+   0
+   0
+   0
+
+z =
+
+   7.5000e-04   2.5000e-04  -2.5000e-04  -7.5000e-04
+
+Deformações na superfície média (e0):
+  1.944945e-03
+  -1.476503e-03
+  -9.058448e-04
+Curvaturas (kapa):
+  -2.665925e+00
+  1.646709e+00
+  -2.440730e+00
+zpos =
+
+ Columns 1 through 6:
+
+   7.5000e-04   5.0000e-04   2.5000e-04   2.5000e-04            0  -2.5000e-04
+
+ Columns 7 through 9:
+
+  -2.5000e-04  -5.0000e-04  -7.5000e-04
+
+ Results for Strains in XY directionslayer = 1
+angle = 0
+z coordinate = 7.500000e-04
+StrainXY =
+  -5.449881e-05 -2.414709e-04 -2.736392e-03
+layer = 1
+angle = 0
+z coordinate = 5.000000e-04
+StrainXY =
+  6.119824e-04 -6.531481e-04 -2.126210e-03
+layer = 1
+angle = 0
+z coordinate = 2.500000e-04
+StrainXY =
+  1.278464e-03 -1.064825e-03 -1.516027e-03
+layer = 2
+angle = 30
+z coordinate = 2.500000e-04
+StrainXY =
+  1.278464e-03 -1.064825e-03 -1.516027e-03
+layer = 2
+angle = 30
+z coordinate = 0.000000e+00
+StrainXY =
+  1.944945e-03 -1.476503e-03 -9.058448e-04
+layer = 2
+angle = 30
+z coordinate = -2.500000e-04
+StrainXY =
+  2.611426e-03 -1.888180e-03 -2.956624e-04
+layer = 3
+angle = -45
+z coordinate = -2.500000e-04
+StrainXY =
+  2.611426e-03 -1.888180e-03 -2.956624e-04
+layer = 3
+angle = -45
+z coordinate = -5.000000e-04
+StrainXY =
+  3.277907e-03 -2.299857e-03 3.145201e-04
+layer = 3
+angle = -45
+z coordinate = -7.500000e-04
+StrainXY =
+  3.944388e-03 -2.711534e-03 9.247026e-04
+ Results for Stresses in XY directionslayer = 1
+angle = 0
+z coordinate = 7.500000e-04
+StressXY =
+  -1.060801e+07 -2.656175e+06 -1.961993e+07
+layer = 1
+angle = 0
+z coordinate = 5.000000e-04
+StressXY =
+  1.093731e+08 -4.984708e+06 -1.524492e+07
+layer = 1
+angle = 0
+z coordinate = 2.500000e-04
+StressXY =
+  2.293542e+08 -7.313240e+06 -1.086992e+07
+layer = 2
+angle = 30
+z coordinate = 2.500000e-04
+StressXY =
+  2.311236e+07 -1.407914e+07 -7.761977e+06
+layer = 2
+angle = 30
+z coordinate = 0.000000e+00
+StressXY =
+  1.157151e+08 1.005803e+07 4.251650e+07
+layer = 2
+angle = 30
+z coordinate = -2.500000e-04
+StressXY =
+  2.083178e+08 3.419520e+07 9.279498e+07
+layer = 3
+angle = -45
+z coordinate = -2.500000e-04
+StressXY =
+  8.072797e+07 1.620362e+07 -4.477802e+07
+layer = 3
+angle = -45
+z coordinate = -5.000000e-04
+StressXY =
+  7.491182e+07 -5.073324e+06 -2.727158e+07
+layer = 3
+angle = -45
+z coordinate = -7.500000e-04
+StressXY =
+  6.909567e+07 -2.635027e+07 -9.765141e+06
+ Results for Stresses in 12 directionslayer = 1
+angle = 0
+z coordinate = 7.500000e-04
+Stress12 =
+  -1.060801e+07 -2.656175e+06 -1.961993e+07
+layer = 1
+angle = 0
+z coordinate = 5.000000e-04
+Stress12 =
+  1.093731e+08 -4.984708e+06 -1.524492e+07
+layer = 1
+angle = 0
+z coordinate = 2.500000e-04
+Stress12 =
+  2.293542e+08 -7.313240e+06 -1.086992e+07
+layer = 2
+angle = 30
+z coordinate = 2.500000e-04
+Stress12 =
+  7.092418e+06 1.940805e+06 -1.998538e+07
+layer = 2
+angle = 30
+z coordinate = 0.000000e+00
+Stress12 =
+  1.261212e+08 -3.480759e+05 -2.449260e+07
+layer = 2
+angle = 30
+z coordinate = -2.500000e-04
+Stress12 =
+  2.451500e+08 -2.636957e+06 -2.899981e+07
+layer = 3
+angle = -45
+z coordinate = -2.500000e-04
+Stress12 =
+  9.324381e+07 3.687776e+06 3.226217e+07
+layer = 3
+angle = -45
+z coordinate = -5.000000e-04
+Stress12 =
+  6.219082e+07 7.647667e+06 3.999257e+07
+layer = 3
+angle = -45
+z coordinate = -7.500000e-04
+Stress12 =
+  3.113784e+07 1.160756e+07 4.772297e+07
+S1 =
+
+ans(:,:,1) = -1.0608e+07
+ans(:,:,2) = 1.0937e+08
+ans(:,:,3) = 2.2935e+08
+ans(:,:,4) = 7.0924e+06
+ans(:,:,5) = 1.2612e+08
+ans(:,:,6) = 2.4515e+08
+ans(:,:,7) = 9.3244e+07
+ans(:,:,8) = 6.2191e+07
+ans(:,:,9) = 3.1138e+07
+
+S2 =
+
+ans(:,:,1) = -2.6562e+06
+ans(:,:,2) = -4.9847e+06
+ans(:,:,3) = -7.3132e+06
+ans(:,:,4) = 1.9408e+06
+ans(:,:,5) = -3.4808e+05
+ans(:,:,6) = -2.6370e+06
+ans(:,:,7) = 3.6878e+06
+ans(:,:,8) = 7.6477e+06
+ans(:,:,9) = 1.1608e+07
+
+T12 =
+
+ans(:,:,1) = -1.9620e+07
+ans(:,:,2) = -1.5245e+07
+ans(:,:,3) = -1.0870e+07
+ans(:,:,4) = -1.9985e+07
+ans(:,:,5) = -2.4493e+07
+ans(:,:,6) = -2.9000e+07
+ans(:,:,7) = 3.2262e+07
+ans(:,:,8) = 3.9993e+07
+ans(:,:,9) = 4.7723e+07
+
+ Results for Strains in 12 directionslayer = 1
+angle = 0
+z coordinate = 7.500000e-04
+Strain12 =
+  -5.449881e-05 -2.414709e-04 -2.736392e-03
+layer = 1
+angle = 0
+z coordinate = 5.000000e-04
+Strain12 =
+  6.119824e-04 -6.531481e-04 -2.126210e-03
+layer = 1
+angle = 0
+z coordinate = 2.500000e-04
+Strain12 =
+  1.278464e-03 -1.064825e-03 -1.516027e-03
+layer = 2
+angle = 30
+z coordinate = 2.500000e-04
+Strain12 =
+  3.618228e-05 1.774560e-04 -2.787361e-03
+layer = 2
+angle = 30
+z coordinate = 0.000000e+00
+Strain12 =
+  6.973406e-04 -2.288984e-04 -3.415983e-03
+layer = 2
+angle = 30
+z coordinate = -2.500000e-04
+Strain12 =
+  1.358499e-03 -6.352528e-04 -4.044604e-03
+layer = 3
+angle = -45
+z coordinate = -2.500000e-04
+Strain12 =
+  5.094543e-04 2.137919e-04 4.499606e-03
+layer = 3
+angle = -45
+z coordinate = -5.000000e-04
+Strain12 =
+  3.317651e-04 6.462852e-04 5.577764e-03
+layer = 3
+angle = -45
+z coordinate = -7.500000e-04
+Strain12 =
+  1.540758e-04 1.078778e-03 6.655923e-03
+e1 =
+
+ans(:,:,1) = -5.4499e-05
+ans(:,:,2) = 6.1198e-04
+ans(:,:,3) = 1.2785e-03
+ans(:,:,4) = 3.6182e-05
+ans(:,:,5) = 6.9734e-04
+ans(:,:,6) = 1.3585e-03
+ans(:,:,7) = 5.0945e-04
+ans(:,:,8) = 3.3177e-04
+ans(:,:,9) = 1.5408e-04
+
+e2 =
+
+ans(:,:,1) = -2.4147e-04
+ans(:,:,2) = -6.5315e-04
+ans(:,:,3) = -1.0648e-03
+ans(:,:,4) = 1.7746e-04
+ans(:,:,5) = -2.2890e-04
+ans(:,:,6) = -6.3525e-04
+ans(:,:,7) = 2.1379e-04
+ans(:,:,8) = 6.4629e-04
+ans(:,:,9) = 1.0788e-03
+
+Y12 =
+
+ans(:,:,1) = -2.7364e-03
+ans(:,:,2) = -2.1262e-03
+ans(:,:,3) = -1.5160e-03
+ans(:,:,4) = -2.7874e-03
+ans(:,:,5) = -3.4160e-03
+ans(:,:,6) = -4.0446e-03
+ans(:,:,7) = 4.4996e-03
+ans(:,:,8) = 5.5778e-03
+ans(:,:,9) = 6.6559e-03
+
+posicao = -0.00075
+flag = falha por cisalhamento no plano (9)
+posicao = -0.00075
+flag = falha por cisalhamento no plano (9)
+crit = 0.225041
+posicao = 0.00075
+flag = ok segundo TSAI-HILL
+crit = 0.148578
+posicao = 0.0005
+flag = ok segundo TSAI-HILL
+crit = 0.122417
+posicao = 0.00025
+flag = ok segundo TSAI-HILL
+crit = 0.238016
+posicao = 0.00025
+flag = ok segundo TSAI-HILL
+crit = 0.364897
+posicao = 0
+flag = ok segundo TSAI-HILL
+crit = 0.547741
+posicao = -0.00025
+flag = ok segundo TSAI-HILL
+crit = 0.632925
+posicao = -0.00025
+flag = ok segundo TSAI-HILL
+crit = 1.01311
+posicao = -0.0005
+flag = falha segundo TSAI-HILL
+crit = 1.50622
+posicao = -0.00075
+flag = falha segundo TSAI-HILL
+crit = 0.149533
+posicao = 0.00075
+flag = ok segundo HOFFMANN
+crit = 0.00931235
+posicao = 0.0005
+flag = ok segundo HOFFMANN
+crit = -0.0783274
+posicao = 0.00025
+flag = ok segundo HOFFMANN
+crit = 0.290315
+posicao = 0.00025
+flag = ok segundo HOFFMANN
+crit = 0.354833
+posicao = 0
+flag = ok segundo HOFFMANN
+crit = 0.472768
+posicao = -0.00025
+flag = ok segundo HOFFMANN
+crit = 0.725535
+posicao = -0.00025
+flag = ok segundo HOFFMANN
+crit = 1.17336
+posicao = -0.0005
+flag = falha segundo HOFFMANN
+crit = 1.70118
+posicao = -0.00075
+flag = falha segundo HOFFMANN
+crit = 0.149118
+posicao = 0.00075
+flag = ok segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 0.0173387
+posicao = 0.0005
+flag = ok segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = -0.053634
+posicao = 0.00025
+flag = ok segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 0.290112
+posicao = 0.00025
+flag = ok segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 0.35548
+posicao = 0
+flag = ok segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 0.482285
+posicao = -0.00025
+flag = ok segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 0.720472
+posicao = -0.00025
+flag = ok segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 1.16636
+posicao = -0.0005
+flag = falha segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 1.69586
+posicao = -0.00075
+flag = falha segundo TSAI-WU com F12 = -(sqrt(F11*F22))/2
+crit = 0.149559
+posicao = 0.00075
+flag = ok segundo TSAI-WU com F12 = 0
+crit = 0.00880341
+posicao = 0.0005
+flag = ok segundo TSAI-WU com F12 = 0
+crit = -0.0798932
+posicao = 0.00025
+flag = ok segundo TSAI-WU com F12 = 0
+crit = 0.290328
+posicao = 0.00025
+flag = ok segundo TSAI-WU com F12 = 0
+crit = 0.354792
+posicao = 0
+flag = ok segundo TSAI-WU com F12 = 0
+crit = 0.472165
+posicao = -0.00025
+flag = ok segundo TSAI-WU com F12 = 0
+crit = 0.725856
+posicao = -0.00025
+flag = ok segundo TSAI-WU com F12 = 0
+crit = 1.1738
+posicao = -0.0005
+flag = falha segundo TSAI-WU com F12 = 0
+crit = 1.70151
+posicao = -0.00075
+flag = falha segundo TSAI-WU com F12 = 0
